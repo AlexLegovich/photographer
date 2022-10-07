@@ -14,9 +14,9 @@
 
 @font-face {
     font-family: 'Gilroy';
-    src: url('fonts/Gilroy-Regular.eot');
+    src: url('https://alexlegovich.github.io/photographer/fonts/Gilroy-Regular.eot');
     src: local('Gilroy Regular'), local('Gilroy-Regular'),
-        url('..fonts/Gilroy-Regular.eot#iefix') format('embedded-opentype'),
+        url('https://alexlegovich.github.io/photographer/fonts/Gilroy-Regular.eot#iefix') format('embedded-opentype'),
         url('..fonts/Gilroy-Regular.woff') format('woff'),
         url('..fonts/Gilroy-Regular.ttf') format('truetype');
     font-weight: 400;
