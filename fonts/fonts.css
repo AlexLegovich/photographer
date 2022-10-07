@@ -25,11 +25,11 @@
 
 @font-face {
     font-family: 'Gilroy';
-    src: url('../fonts/Gilroy-bold/Gilroy-Bold.eot');
+    src: url('https://alexlegovich.github.io/photographer/fonts/Gilroy-Bold.eot');
     src: local('Gilroy Bold'), local('Gilroy-Bold'),
-        url('../fonts/Gilroy-bold/Gilroy-Bold.eot#iefix') format('embedded-opentype'),
-        url('../fonts/Gilroy-bold/Gilroy-Bold.woff') format('woff'),
-        url('../fonts/Gilroy-bold/Gilroy-Bold.ttf') format('truetype');
+        url('https://alexlegovich.github.io/photographer/fonts/Gilroy-Bold.eot#iefix') format('embedded-opentype'),
+        url('https://alexlegovich.github.io/photographer/fonts/Gilroy-Bold.woff') format('woff'),
+        url('https://alexlegovich.github.io/photographer/fonts/Gilroy-Bold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
 }
