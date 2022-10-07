@@ -387,7 +387,7 @@
 .about__main {}
 .about__image-main {
     position: relative;
-    background-image: url(https://alexlegovich.github.io/photographer/img/01.jpg);
+    background-image: url(https://alexlegovich.github.io/photographer/img/01.jpg
     width: 660px;
     height: 700px;
     background-repeat: no-repeat;
