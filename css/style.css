@@ -387,7 +387,7 @@
 .about__main {}
 .about__image-main {
     position: relative;
-    background-image: url(/src/img/about/01.jpg);
+    background-image: url((https://alexlegovich.github.io/photographer/img/01.jpg);
     width: 660px;
     height: 700px;
     background-repeat: no-repeat;
@@ -406,7 +406,7 @@
       
 
 .about__image-main::after {
-    content: url(/src/img/about/Mary\ I..png);
+    content: url((https://alexlegovich.github.io/photographer/img/Mary I..png);
     position: absolute;
     bottom: 0;
     right: 20px;
@@ -471,7 +471,7 @@
       
 }
 .about__third-sec {
-    background-image: url(/src/img/about/03.jpg);
+    background-image: url(https://alexlegovich.github.io/photographer/img/03.jpg);
     width: 520px;
     height: 876px;
     background-repeat: no-repeat;
@@ -482,7 +482,7 @@
 
 .about__image-sec {
     position: absolute;
-    background-image: url(/src/img/about/02.jpg);
+    background-image: url(https://alexlegovich.github.io/photographer/img/02.jpg);
     left: 750px;
     top: 570px;
     width: 427px;
@@ -495,7 +495,7 @@
 @media (max-width: 1227px){
     .about__image-sec {
         position: absolute;
-        background-image: url(/src/img/about/02.jpg);
+        background-image: url(https://alexlegovich.github.io/photographer/img/02.jpg);
         left: 750px;
         top: 20px;
         width: 191px;
