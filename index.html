@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mary J</title>
+    <link rel="stylesheet" href="/src/fonts/fonts.css">
+    <link rel="stylesheet" href="/src/css/reset.css">
+    <link rel="stylesheet" href="/src/css/var.css">
+    <link rel="stylesheet" href="/src/css/style.css">
+</head>
+<body>
+     <div class="wrapper">
+        <header id="header" class="header fix-block  ">
+            <div class="header__container">
+                <div class="header__body">
+                    <a href="#" class="header__logo"><img src="/src/img/icons/logo.svg" alt=""></a>
+                    <ul class="header__list">
+                        <li class="header__link"><a href="#about">About me</a></li>
+                        <li class="header__link"><a href="#portfolio">Portfolio</a></li>
+                        <li class="header__link"><a href="#steps">Work steps</a></li>
+                        <li class="header__link"><a href="#prices">Prices</a></li>
+                        <li class="header__link"><a href="#reviews">Reviews</a></li>
+                        <li class="header__link"><a href="#contacts">Contacts</a></li>
+                    </ul>
+                        <button class="header__phone">Make a call</button>
+                        <div id="burger" class="header__burger">
+                            <span></span>
+                            <span></span>
+                        </div>
+                </div>
+            </div>
+        </header>
+
+            <div class="burger__nav ">
+                <ul class="burger__list">
+                    <li id="aboutme" class="burger__link"><a href="#about">About me</a></li>
+                    <li id="portf" class="burger__link"><a href="#portfolio">Portfolio</a></li>
+                    <li id="work" class="burger__link"><a href="#steps">Work steps</a></li>
+                    <li id="price" class="burger__link"><a href="#prices">Prices</a></li>
+                    <li id="slide" class="burger__link"><a href="#reviews">Reviews</a></li>
+                    <li id="ask" class="burger__link"><a href="#contacts">Contacts</a></li>
+                </ul>
+                <button class="burger__call">Make a call</button>
+                <div class="social__row">
+                    <a href="" class="social__link"><img src="/src/img/icons/soc/bh.svg" alt=""></a>
+                    <a href="" class="social__link"><img src="/src/img/icons/soc/fb.svg" alt=""></a>
+                    <a href="" class="social__link"><img src="/src/img/icons/soc/ig.svg" alt=""></a>
+                    <a href="" class="social__link"><img src="/src/img/icons/soc/yt.svg" alt=""></a>
+                </div>
+            </div>
+
+
+        <page class="main   ">
+            <div class="main__overlay"></div>
+                <div class="main__container">
+                    <div class="main__row">
+                        <div class="main__content">
+                            <h4 class="main__brow">Photographer</h4>
+                            <h1 class="main__title">Maria Ivanova</h1>
+                            <p class="main__text">Modern and creative photo shoots for any purpose</p>
+                            <button id="popup" class="main__btn">Book a session</button>
+                        </div>
+                        <div class="main__image"></div>
+                        <div class="main__social">
+                            <div class="social__column">
+                                <img src="/src/img/icons/soc/ig.svg" alt="">
+                                <img src="/src/img/icons/soc/yt.svg" alt="">
+                                <img src="/src/img/icons/soc/fb.svg" alt="">
+                                <img src="/src/img/icons/soc/bh.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </page>
+
+        <section  class="about   ">
+            <div class="about__container">
+                <div class="about__wrapper">
+                    <div class="about__main">
+                        <div id="about" class="about__image-main"></div>
+                        <div  class="about__title-main">About me</div>
+                        <div  class="about__content">
+                            <div  class="about__text-left">Hello! My name is Mariya Ivanova, I am a photographer and videographer from St. Petersburg. From childhood she was interested in photography and composition, later she turned her hobby into a profession</div>
+                            <div class="about__text-right">
+                                I have been doing photography and videography for over 10 years. With my photographs, I do not just show beautiful pictures, but I tell stories and convey emotions caught at the moment of shooting</div>
+                        </div>
+                    </div>
+                    <div class="about__image-sec"></div>
+                    <div class="about__third-sec"></div>
+                </div>
+
+            </div>
+        </section>
+        
+        <section class="portfolio   ">
+            <div class="portfolio__container">
+                <div class="portfolio__row">
+                    <div class="portfolio__left">
+                        <div class="portfolio__left-image"></div>
+                    </div>
+                    <div id="portfolio" class="portfolio-wrapper">
+                        <div class="portfolio__title">Portfolio</div>
+                        <div class="portfolio__tabs">
+                            <div  data-tab="#all" class="tab__header">All</div>
+                            <div  data-tab="#creative" class="tab__header">Creative</div>
+                            <div  data-tab="#thematic" class="tab__header">Thematic</div>
+                            <div  data-tab="#portrait" class="tab__header">Portrait</div>
+                            <div  data-tab="#family" class="tab__header">Family</div>
+                            <div  data-tab="#wedding" class="tab__header">Wedding</div>
+                            <div  data-tab="#subject" class="tab__header">Subject</div>
+                        </div>
+                        <div class="tab__content">
+                            <div id="all" class="content all hidden ">
+                                <div class="image-1"><img src="/src/img/portfolio/tabs/all/01.jpg" alt=""></div>
+                                <div class="image-2"><img src="/src/img/portfolio/tabs/all/02.jpg" alt=""></div>
+                                <div class="image-3"><img src="/src/img/portfolio/tabs/all/03.jpg" alt=""></div>
+                            </div>
+                            <div id="creative" class="content creative hidden  ">
+                                <div class="image-1"><img src="/src/img/portfolio/tabs/all/04.jpg" alt=""></div>
+                                <div class="image-2"><img src="/src/img/portfolio/tabs/all/05.jpg" alt=""></div>
+                                <div class="image-3"><img src="/src/img/portfolio/tabs/all/06.jpg" alt=""></div>
+                            </div>
+                            <div id="thematic" class="content creative hidden  ">
+                                <div class="image-1"><img src="/src/img/portfolio/tabs/all/07.jpg" alt=""></div>
+                                <div class="image-2"><img src="/src/img/portfolio/tabs/all/08.jpg" alt=""></div>
+                                <div class="image-3"><img src="/src/img/portfolio/tabs/all/09.jpg" alt=""></div>
+                            </div>
+                            <div id="portrait" class="content creative hidden  ">
+                                <div class="image-1"><img src="/src/img/portfolio/tabs/all/10.jpg" alt=""></div>
+                                <div class="image-2"><img src="/src/img/portfolio/tabs/all/11.jpg" alt=""></div>
+                                <div class="image-3"><img src="/src/img/portfolio/tabs/all/12.jpg" alt=""></div>
+                            </div>
+                            <div id="family" class="content creative hidden  ">
+                                <div class="image-1"><img src="/src/img/portfolio/tabs/all/13.jpg" alt=""></div>
+                                <div class="image-2"><img src="/src/img/portfolio/tabs/all/14.jpg" alt=""></div>
+                                <div class="image-3"><img src="/src/img/portfolio/tabs/all/15.jpg" alt=""></div>
+                            </div>
+                            <div id="wedding" class="content creative hidden  ">
+                                <div class="image-1"><img src="/src/img/portfolio/tabs/all/16.jpg" alt=""></div>
+                                <div class="image-2"><img src="/src/img/portfolio/tabs/all/17.jpg" alt=""></div>
+                                <div class="image-3"><img src="/src/img/portfolio/tabs/all/18.jpg" alt=""></div>
+                            </div>
+                            <div id="subject" class="content creative hidden  ">
+                                <div class="image-1"><img src="/src/img/portfolio/tabs/all/19.jpg" alt=""></div>
+                                <div class="image-2"><img src="/src/img/portfolio/tabs/all/20.jpg" alt=""></div>
+                                <div class="image-3"><img src="/src/img/portfolio/tabs/all/21.jpg" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="steps" class="steps    ">
+    <div class="steps__container">
+        <div class="steps__main-wrapper">
+            <div class="steps__left">
+                <div class="steps__header-main">Work steps</div>
+                <div class="steps__wrapper-upper">
+                    <div class="steps__row">
+                        <div class="steps__header">1.Know you better</div>
+                        <div class="steps__desc">It is important for me to get to know you better and tell you about myself, so that you feel comfortable during the shooting, you can relax and enjoy the process</div>
+                    </div>
+                    <div class="steps__row">
+                        <div class="steps__header">2. Concept</div>
+                        <div class="steps__desc">We will discuss all the details of the shooting, determine the concept, image and location. I will select references so that you can clearly see the result of the future shooting</div>
+                    </div>
+                </div>
+                <div class="steps__wrapper-lower">
+                    <div class="steps__row">
+                        <div class="steps__header">3.Shooting</div>
+                        <div class="steps__desc">In the process of shooting, I give you all the recommendations for posing, we also change the location if necessary</div>
+                    </div>
+                    <div class="steps__row">
+                        <div class="steps__header">4. Photos</div>
+                        <div class="steps__desc">In a week you will receive finished photos, original processed in author's retouching</div>
+                    </div>
+                </div>
+            </div>
+            <div class="steps__image"></div>
+        </div>
+        
+    </div>
+        </section>
+
+        <section id="prices" class="prices   ">
+            <div class="prices__container">
+                <div class="prices__header">Prices</div>
+                <div class="prices__wrapper">
+                    <div class="prices__card">
+                        <div class="prices__category">Minimum</div>
+                        <div class="prices__price">100€</div>
+                        <div class="prices__details">
+                            <div class="prices__length">
+                                <div class="length__desc">Duration</div>
+                                <div class="length__amount"> 2 hours</div>
+                            </div>
+                            <div class="prices__quantity">
+                                <div class="length__desc">Amount of photos</div>
+                                <div class="length__amount">50-70</div>
+                            </div>
+                            <div class="prices__consult">
+                                <div class="length__desc">Consultation</div>
+                                <div class="length__amount">No</div>
+                            </div>
+                        </div>
+                        <button id="popup" class="prices__btn">Book a session</button>
+                    </div>
+
+                    <div class="prices__card">
+                        <div class="prices__category">Standard</div>
+                        <div class="prices__price">250€</div>
+                        <div class="prices__details">
+                            <div class="prices__length">
+                                <div class="length__desc">Duration</div>
+                                <div class="length__amount"> 4 hours</div>
+                            </div>
+                            <div class="prices__quantity">
+                                <div class="length__desc">Amount of photos</div>
+                                <div class="length__amount">100-150</div>
+                            </div>
+                            <div class="prices__consult">
+                                <div class="length__desc">Consultation</div>
+                                <div class="length__amount">Yes</div>
+                            </div>
+                        </div>
+                        <div id="popup" class="prices__btn">Book a session</div>
+                    </div>
+
+                    <div class="prices__card">
+                        <div class="prices__category">Premium</div>
+                        <div class="prices__price">400€</div>
+                        <div class="prices__details">
+                            <div class="prices__length">
+                                <div class="length__desc">Duration</div>
+                                <div class="length__amount"> 6 hours</div>
+                            </div>
+                            <div class="prices__quantity">
+                                <div class="length__desc">Amount of photos</div>
+                                <div class="length__amount">300+</div>
+                            </div>
+                            <div class="prices__consult">
+                                <div class="length__desc">Consultation</div>
+                                <div class="length__amount">Yes</div>
+                            </div>
+                        </div>
+                        <div id="popup" class="prices__btn">Book a session</div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <section id="reviews" class="reviews  ">
+            <div class="reviews__container">
+                <div class="reviews__title">Reviews</div>
+                <div class="reviews__slider ">
+                    <div class="slider__wrapper">
+                        <div class="reviews__content">
+                            <div class="reviews__text">It was my first photo session, I was afraid that I would be constrained, I would not be able to pose. But after meeting and consulting with Masha, all fears were dispelled. I received more than 200 photos of various plans and now I can stop worrying about which photos to post on Instagram. </div>
+                            <div class="reviews__author">Evgeniya</div>
+                        </div>
+                        <div class="reviews__image first"></div>
+                    </div>
+                    
+                    <div class="slider__wrapper">
+                        <div class="reviews__content">
+                            <div class="reviews__text">A picture is worth a thousand words, but your pictures leave us speechless.  Your creativity and timing caught the beauty and essence of our event. You are amazing and truly fun to work with.  You are like family and we plan to recommend you to all of our friends</div>
+                            <div class="reviews__author">Olga and Andrei</div>
+                        </div>
+                        <div class="reviews__image second"></div>
+                    </div>
+
+                    <div class="slider__wrapper">
+                        <div class="reviews__content">
+                            <div class="reviews__text">The photos we have will be a lifelong keep sake of what was the best day of both of our lives. I’m so glad we chose to invest in you and your skills/passion. I knew from the first time I saw some of your work that you were who we wanted and needed! </div>
+                            <div class="reviews__author">Mark and Liliya</div>
+                        </div>
+                        <div class="reviews__image third"></div>
+                    </div>
+
+                    <div class="slider__wrapper">
+                        <div class="reviews__content">
+                            <div class="reviews__text">A picture is worth a thousand words, but your pictures leave us speechless.  Your creativity and timing caught the beauty and essence of our event. You are amazing and truly fun to work with.  You are like family and we plan to recommend you to all of our friends.</div>
+                            <div class="reviews__author">Natalja</div>
+                        </div>
+                        <div class="reviews__image fourth"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacts" class="question">
+            <div class="question__container">
+                <div class="question__wrapper">
+                    <div class="question__image"></div>
+                    <div class="question__form">
+                        <div class="question__title">Have a question?</div>
+                        <div class="question__subtitle">Leave a request for a free consultation and I will contact you</div>
+                        <div class="input__row">
+                            <input class="tel" type="tel"  name="phone" id="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="+7 ___-___-__-__">
+                            <input class="name" type="name" name="name" id="name" placeholder="Your name">
+                            <button id="popup" type="submit" class="button">Send a request</button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <section class="blog ">
+            <div class="blog__container">
+                <div class="blog__title">Blog</div>
+                <div class="blog__row">
+                    <div class="blog__card card">
+                        <div class="card__image"><img src="/src/img/blog/01.jpg" alt=""></div>
+                        <div class="card__body">
+                            <div class="card__title">Backstage</div>
+                            <div class="card__intro">What's going on behind the scenes? Secrets of a successful photo shoot</div>
+                            <div class="card__row">
+                                <div class="card__details">
+                                    <div class="card__likes">120</div>
+                                    <div class="card__date">15.06.2021</div>
+                                </div>
+                                <div id="popup" class="card__button">Read more</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="blog__card card">
+                        <div class="card__image"><img src="/src/img/blog/02.jpg" alt=""></div>
+                        <div class="card__body">
+                            <div class="card__title">Kids</div>
+                            <div class="card__intro">How to prepare children for shooting in order to have a photo shoot without tears?</div>
+                            <div class="card__row">
+                                <div class="card__details">
+                                    <div class="card__likes">512</div>
+                                    <div class="card__date">10.06.2021</div>
+                                </div>
+                                <div id="popup" class="card__button">Read more</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="blog__card card">
+                        <div class="card__image"><img src="/src/img/blog/03.jpg" alt=""></div>
+                        <div class="card__body">
+                            <div class="card__title">Inspiration</div>
+                            <div class="card__intro">Where to look for inspiration and how to make a strong portfolio for a beginner photographer</div>
+                            <div class="card__row">
+                                <div class="card__details">
+                                    <div class="card__likes">87</div>
+                                    <div class="card__date">25.05.2021</div>
+                                </div>
+                                <div id="popup" class="card__button">Read more</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="footer__wrapper">
+                    <div class="footer__contacts contacts">
+                        <div class="contacts__title">Contacts</div>
+                        <div class="contacts__mail">ivanova.mary@gmail.com</div>
+                        <div class="contacts__phone">+7 981 680 20 48</div>
+                    </div>
+                    <div class="footer__nav nav">
+                        <ul class="nav__list">
+                            <li class="nav__link">About me</li>
+                            <li class="nav__link">Portfolio</li>
+                            <li class="nav__link">Work steps</li>
+                        </ul>
+                    </div>
+                    <div class="footer__nav nav">
+                        <ul class="nav__list">
+                            <li class="nav__link">Prices</li>
+                            <li class="nav__link">Reviews</li>
+                            <li class="nav__link">Contacts</li>
+                        </ul>
+                    </div>
+                    <div class="footer__subscribe subscribe">
+                        <div class="subscribe__info">Subscribe to the newsletter and be the first to know about the news</div>
+                        <form class="footer__form" >
+                            <input type="text" name="form[email]" data-error="Error" placeholder="E-mail" class="input-sub">
+                            <button type="button" id="popup" class="button-sub">Subscribe<a href="#popup"></a></button>
+                        </form>
+                    </div>
+                </div>
+                <div class="footer__bottom">
+                    <div class="footer__social social">
+                        <div class="social__icon"><img src="/src/img/icons/soc/ig.svg" alt=""></div>
+                        <div class="social__icon"><img src="/src/img/icons/soc/fb.svg" alt=""></div>
+                        <div class="social__icon"><img src="/src/img/icons/soc/yt.svg" alt=""></div>
+                        <div class="social__icon"><img src="/src/img/icons/soc/bh.svg" alt=""></div>
+                    </div>
+                    <div class="footer__rules">
+                        <div class="footer__privacy">Agreement on the processing of personal data</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    <div class="modal none">
+        <div class="modal__fullscreen fix-block ">
+            <div class="modal_container">
+                <h2>Hello! I am the modal!</h2>
+                <div class="modal__close">Please close me!!</div>
+            </div>
+        </div>
+    </div>
+
+            <button id="top"><img src="/src/img/icons/top.svg" alt=""></button>
+
+
+
+     </div>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.2/gsap.min.js" integrity="sha512-gsEItzcNkWxfxHjr4BaEZAd9YuRWYjxnj7c/yukcZ0/nWehUb5TjJNyyv1ApCU2DFH/qgw+stFZHPOKnoQnIuQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.2/ScrollTrigger.min.js" integrity="sha512-ko44b+LlYXwGZI6Gey6Tgrhew9JEPdSE6m7FqDyGGPDW+dDOjsCElEtiUIRRtCXRNHwKheBCnHCQSMdUz/pgkw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     <script src="/src/js/anim.js"></script>
+     <script src="/src/js/script.js"></script>
+     
+
+</body>
+</html>
