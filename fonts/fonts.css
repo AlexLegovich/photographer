@@ -1,11 +1,11 @@
 
 @font-face {
     font-family: 'Gilroy';
-    src: url('../fonts/Gilroy-semibold/Gilroy-SemiBold.eot');
+    src: url('https://alexlegovich.github.io/photographer/fonts/Gilroy-SemiBold.eot');
     src: local('Gilroy SemiBold'), local('Gilroy-SemiBold'),
-        url('../fonts/Gilroy-semibold/Gilroy-SemiBold.eot#iefix') format('embedded-opentype'),
-        url('../fonts/Gilroy-semibold/Gilroy-SemiBold.woff') format('woff'),
-        url('../fonts/Gilroy-semibold/Gilroy-SemiBold.ttf') format('truetype');
+        url('https://alexlegovich.github.io/photographer/fonts/Gilroy-SemiBold.eot#iefix') format('embedded-opentype'),
+        url('https://alexlegovich.github.io/photographer/fonts/Gilroy-SemiBold.woff') format('woff'),
+        url('https://alexlegovich.github.io/photographer/fonts/Gilroy-SemiBold.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
 }
