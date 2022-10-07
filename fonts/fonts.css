@@ -14,7 +14,7 @@
 
 @font-face {
     font-family: 'Gilroy';
-    src: url('../fonts/Gilroy-regular/Gilroy-Regular.eot');
+    src: url('fonts/Gilroy-Regular.eot');
     src: local('Gilroy Regular'), local('Gilroy-Regular'),
         url('..fonts/Gilroy-Regular.eot#iefix') format('embedded-opentype'),
         url('..fonts/Gilroy-Regular.woff') format('woff'),
