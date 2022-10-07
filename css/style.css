@@ -199,7 +199,7 @@
     object-fit: cover;
     background-size:cover;
     background-repeat: no-repeat;
-    background-image: url(/src/img/main/main.jpg);
+    background-image: url(https://alexlegovich.github.io/photographer/img/main.jpg);
     background-position: center;
 }
 @media screen and (max-width: 900px) and (min-width: 800px) {
@@ -212,7 +212,7 @@
         object-fit: cover;
         background-size:cover;
         background-repeat: no-repeat;
-        background-image: url(/src/img/main/main.jpg);
+        background-image: url(https://alexlegovich.github.io/photographer/img/main.jpg);
         background-position: center;
     }      
 }
