@@ -484,6 +484,9 @@
 .about__content {
     display: flex;
     gap: 87px;
+    opacity:0;
+    transform: translateY(-40px);
+    transition: all 0.8s ease 0s;
 }
 
 @media (max-width: 960px){
