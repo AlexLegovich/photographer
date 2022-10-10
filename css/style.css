@@ -1468,7 +1468,7 @@ input.name, .tel {
     padding-left: 28px;
 }
 .card__likes::before {
-    content:url(/src/img/blog/like.svg);
+    content:url(https://alexlegovich.github.io/photographer/img/like.svg);
     position: absolute;
     width: 18px;
     height: 16px;
