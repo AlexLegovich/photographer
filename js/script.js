@@ -90,8 +90,6 @@ tabsBtn.forEach(function(item){
 
         }
 
-
-
         tabsBtn.forEach(function(item) {
             item.classList.remove('active');
         });
@@ -187,6 +185,37 @@ $("a[href^='#contacts']").click(function(e) {
 	}, 1300 /* speed */ );
 });
 
+$("#aboutf").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#about").offset().top
+    }, 2000);
+});
+$("#portff").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#portfolio").offset().top -100
+    }, 2000);
+});
+$("#workf").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#steps").offset().top -100
+    }, 2000);
+});
+$("#pricesf").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#prices").offset().top -100
+    }, 2000);
+});
+$("#revf").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#reviews").offset().top -100
+    }, 2000);
+});
+$("#conf").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#contacts").offset().top -300
+    }, 2000);
+});
+
 
 
 
@@ -196,18 +225,6 @@ $("#top").click(function() {
 
 
 
-    let mybutton = document.getElementById("top");
-
-    // When the user scrolls down 20px from the top of the document, show the button
-    window.onscroll = function() {scrollFunction()};
-    
-    function scrollFunction() {
-      if (document.body.scrollTop > 520 || document.documentElement.scrollTop > 520) {
-        mybutton.style.opacity = 0;
-      } else {
-        mybutton.style.opacity = 1;
-      }
-    }
 
 
     var prevScrollpos = window.pageYOffset;
@@ -221,4 +238,26 @@ $("#top").click(function() {
       prevScrollpos = currentScrollPos;
     }
 
+
+    $(document).ready(function() {
+        var url = window.location.href;
+        console.log(url);
+        if( url.indexOf('#') < 0 ) {
+            window.location.replace(url + "#");
+        } else {
+            window.location.replace(url);
+        }
+    });
+
+    let mybutton = document.getElementById("top");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
     
+    function scrollFunction() {
+      if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+        mybutton.style.opacity = 1;
+      } else {
+        mybutton.style.opacity = 0;
+      }
+    }
