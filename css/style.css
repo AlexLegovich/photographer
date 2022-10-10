@@ -1163,11 +1163,11 @@
 
 .reviews__slider .slick-arrow.slick-prev{
     left: 0px;
-    background: url('/src/img/reviews/icons/prev.svg') 0 0 / 100% no-repeat;
+    background: url('https://alexlegovich.github.io/photographer/img/prev.svg') 0 0 / 100% no-repeat;
 }
 .reviews__slider .slick-arrow.slick-next{
    left: 310px;
-    background: url('/src/img/reviews/icons/next.svg') 0 0 / 100% no-repeat;
+    background: url('https://alexlegovich.github.io/photographer/img/next.svg') 0 0 / 100% no-repeat;
 }
 @media(max-width: 970px){
     .reviews__slider .slick-arrow.slick-next{
