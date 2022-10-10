@@ -25,6 +25,21 @@
     content: '%';
     font-size: 0.5em;
   }
+  
+  .hide {
+    opacity: 0;
+    transition: 1s;
+    pointer-events: none;
+  }
+  .hide body {
+    overflow: hidden;
+  }
+  
+  .preloader.active {
+    transform: translateY(-100vh);
+    transition: ease-in-out 1500ms;
+    transition-delay: 1s;
+  }
 
 
 
