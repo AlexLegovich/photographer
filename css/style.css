@@ -1092,7 +1092,7 @@
     left: -1px;
 }
 .reviews__image {
-    background-image: url(/src/img/reviews/01.jpg);
+    background-image: url(https://alexlegovich.github.io/photographer/img/01-rev.jpg);
     width: 890px;
     height: 416px;
     background-repeat: no-repeat;
@@ -1102,7 +1102,7 @@
 }
 
 .second {
-    background-image: url(/src/img/reviews/02.jpg);
+    background-image: url(https://alexlegovich.github.io/photographer/img/02-rev.jpg);
     width: 890px;
     height: 416px;
     background-repeat: no-repeat;
@@ -1110,7 +1110,7 @@
     background-size: cover;
 }
 .third {
-    background-image: url(/src/img/reviews/03.jpg);
+    background-image: url(https://alexlegovich.github.io/photographer/img/03-rev.jpg);
     width: 890px;
     height: 416px;
     background-repeat: no-repeat;
@@ -1118,7 +1118,7 @@
     background-size: cover;
 }
 .fourth {
-    background-image: url(/src/img/reviews/04.jpg);
+    background-image: url(https://alexlegovich.github.io/photographer/img/04-rev.jpg);
     width: 890px;
     height: 416px;
     background-repeat: no-repeat;
