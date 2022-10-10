@@ -47,6 +47,7 @@
 /* Header */
 
 .header {
+    /* transform: translateY(-70px); */
     height: 70px;
     border-bottom: 1px solid var(--text);
     border-top: 1px solid var(--text);
@@ -56,8 +57,10 @@
     left: 0;
     width: 100%;
     z-index: 999;
-    transition: all 0.3s ease 0s;
+    transition: all 0.5s ease 0s;
+    opacity: 0;
 }
+
 .header__container {}
 .header__body {
     display: flex;
@@ -247,6 +250,8 @@
     background-repeat: no-repeat;
     background-image: url(https://alexlegovich.github.io/photographer/img/main.jpg);
     background-position: center;
+    clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%);
+    transition: clip-path 1s;
 }
 @media screen and (max-width: 900px) and (min-width: 800px) {
     .main {
@@ -439,6 +444,9 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position:center;
+     transition: all 0.8s ease 0s;
+    transform: translateY(40px);
+    opacity: 0;
 
 }
 
@@ -523,6 +531,8 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position:center;
+    opacity: 0;
+    transition: all 0.3s ease 0s;
 
 }
 
@@ -841,6 +851,9 @@
 }
 .steps__row {
     width: 300px;
+    opacity: 0;
+    transform: translateY(-50px);
+    transition: all 0.7s ease-in-out 0s;
 }
 @media(max-width: 1525px){
     .steps__row {
@@ -872,6 +885,8 @@
     background-position:center center;
     background-size: cover;
     margin-left: 30px;
+    clip-path: polygon(0 0, 0 0, 0 100%, 0 100%);
+    transition: all 0.8s ease-in-out 0s;
     }
 
     @media (max-width:1525px){
@@ -931,6 +946,9 @@
     text-align: center;
     padding:65px;
     border: 1px solid #000;
+    opacity:0;
+    transform: translateY(-50px);
+    transition: all 0.7s ease 0.6s;
 }
 @media(max-width: 1460px){
     .prices__card {
@@ -1085,7 +1103,7 @@
 }
 
 .reviews__slider {
-
+transition: all 0.7s ease 0s;
 }
 
 .reviews__content {
@@ -1425,6 +1443,9 @@ input.name, .tel {
     display: flex;
     gap: 75px;
     justify-content: center;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.4s ease 0s;
 }
 @media(max-width: 1360px){
     .blog__row {
