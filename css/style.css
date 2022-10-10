@@ -552,7 +552,7 @@
 }
 .portfolio__left {}
 .portfolio__left-image {
-    background-image: url(/src/img/portfolio/01.jpg);
+    background-image: url(https://alexlegovich.github.io/photographer/img/01-portfolio.jpg);
     width: 660px;
     height: 1000px;
     background-repeat: no-repeat;
@@ -562,7 +562,7 @@
 
 @media (max-width: 1600px){
     .portfolio__left-image {
-        background-image: url(/src/img/portfolio/01.jpg);
+        background-image: url(https://alexlegovich.github.io/photographer/img/01-portfolio.jpg);
         width: 600px;
         height: 1000px;
         background-repeat: no-repeat;
@@ -573,7 +573,7 @@
 }
 @media (max-width: 1540px){
     .portfolio__left-image {
-        background-image: url(/src/img/portfolio/01.jpg);
+        background-image: url(https://alexlegovich.github.io/photographer/img/01-portfolio.jpg);
         width: 550px;
         height: 1000px;
         background-repeat: no-repeat;
