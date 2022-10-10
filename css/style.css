@@ -406,7 +406,7 @@
       
 
 .about__image-main::after {
-    content: url((https://alexlegovich.github.io/photographer/img/Mary-about.png);
+    content: url(https://alexlegovich.github.io/photographer/img/Mary-about.png);
     position: absolute;
     bottom: 0;
     right: 20px;
