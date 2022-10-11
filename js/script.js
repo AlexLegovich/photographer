@@ -124,16 +124,14 @@ $(document).ready(function(){
 
 // Header hide
 
-   var prevScrollpos = window.pageYOffset;
-    window.onscroll = function() {
-      var currentScrollPos = window.pageYOffset;
-      if (prevScrollpos > currentScrollPos) {
-        document.getElementById("header").style.top = "0";
-      } else {
-        document.getElementById("header").style.top = "-70px";
-      }
-      prevScrollpos = currentScrollPos;
-    }
+if (st > lastScrollTop){
+       // downscroll code
+       $("#header").css({top:'-70px'})
+       .hover(function(){$("#header").css({top: '0px'})})
+   } else {
+      // upscroll code
+      $("#header").css({top:'0px'});
+   }
 
   
 // ------
