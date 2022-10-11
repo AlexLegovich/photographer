@@ -17,6 +17,7 @@ $(document).ready(function() {
 
     });     
 });
+
 $(document).ready(function() {
     $("#portf").click(function(){
         $(".header__burger").toggleClass("active");
@@ -25,6 +26,7 @@ $(document).ready(function() {
 
     });     
 });
+
 $(document).ready(function() {
     $("#work").click(function(){
         $(".header__burger").toggleClass("active");
@@ -33,6 +35,7 @@ $(document).ready(function() {
 
     });     
 });
+
 $(document).ready(function() {
     $("#price").click(function(){
         $(".header__burger").toggleClass("active");
@@ -41,6 +44,7 @@ $(document).ready(function() {
 
     });     
 });
+
 $(document).ready(function() {
     $("#slide").click(function(){
         $(".header__burger").toggleClass("active");
@@ -49,6 +53,7 @@ $(document).ready(function() {
 
     });     
 });
+
 $(document).ready(function() {
     $("#ask").click(function(){
         $(".header__burger").toggleClass("active");
@@ -57,6 +62,7 @@ $(document).ready(function() {
 
     });     
 });
+
 $(document).ready(function() {
     $('[id^="popup"]').click(function(e){
         $(".modal").toggleClass("none");
@@ -124,14 +130,24 @@ $(document).ready(function(){
 
 // Header hide
 
-if (st > lastScrollTop){
+$(function(){
+    var lastScrollTop = 0, delta = 15;
+    $(window).scroll(function(event){
+       var st = $(this).scrollTop();
+       
+       if(Math.abs(lastScrollTop - st) <= delta)
+          return;
+if ((st > lastScrollTop) && (lastScrollTop>0)) {
        // downscroll code
-       $("#header").css({top:'-70px'})
-       .hover(function(){$("#header").css({top: '0px'})})
+      $("header").css("top","-70px");
+  
    } else {
       // upscroll code
-      $("#header").css({top:'0px'});
+      $("header").css("top","0px");
    }
+       lastScrollTop = st;
+    });
+});
 
   
 // ------
