@@ -281,14 +281,14 @@ $("#top").click(function() {
 
 SmoothScroll({
     // Время скролла 400 = 0.4 секунды
-    animationTime    : 300,
+    animationTime    : 600,
     // Размер шага в пикселях 
-    stepSize         : 75,
+    stepSize         : 65,
 
     // Дополнительные настройки:
     
     // Ускорение 
-    accelerationDelta : 30,  
+    accelerationDelta : 20,  
     // Максимальное ускорение
     accelerationMax   : 2,   
 
