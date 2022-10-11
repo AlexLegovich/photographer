@@ -253,6 +253,12 @@
     clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%);
     transition: clip-path 1s;
 }
+.main img {
+    filter: brightness(62%);
+    -webkit-filter: brightness(62%);
+    -moz-filter: brightness(62%);
+}
+
 @media screen and (max-width: 900px) and (min-width: 800px) {
     .main {
         top: 0px;
